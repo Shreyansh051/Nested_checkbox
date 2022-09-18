@@ -1,0 +1,78 @@
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.container>div {
+  min-width: 30%;
+  border-radius: 50px;
+  height: 300px;
+  margin-top: 40px;
+  border-left: 2px solid rgb(83, 167, 188);
+  border-bottom: 2px solid rgb(83, 167, 188);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: whitesmoke;
+}
+
+.container>div:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.heading {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.grid-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(auto);
+}
+
+.box div:nth-child(1) {
+  margin-left: -10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.check {
+  margin: 6px 0;
+  display: flex;
+  color: rgb(83, 167, 188);
+  align-items: center;
+
+}
+
+input {
+  height: 18px;
+  width: 18px;
+}
+
+.box {
+  min-width: 160px;
+  height: 150px;
+  padding: 10px 0 10px 40px;
+  margin: 10px auto;
+  margin-top: 30px;
+  background-color: white;
+  border-left: 2px solid rgb(83, 167, 188);
+  border-bottom: 2px solid rgb(83, 167, 188);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box:hover {
+  background-color: whitesmoke;
+  box-shadow: rgba(120, 96, 96, 0.2) 0px 2px 8px 0px;
+}
+
+mark {
+  background-color: rgb(189, 232, 232);
+  border-radius: 10px;
+  color: rgb(21, 128, 155);
+}
